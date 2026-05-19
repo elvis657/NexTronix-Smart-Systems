@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NexTronics Smart Systems - Tecnología inteligente para el futuro. Automatización industrial, seguridad electrónica, telecomunicaciones, energía solar y domótica.">
+    <title>NexTronics Smart Systems | Tecnología Inteligente</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER / NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="NexTronics Smart Systems" class="logo-img">
+                <div class="logo-text">
+                    <span class="logo-title">NexTronics</span>
+                    <span class="logo-sub">Smart Systems</span>
+                </div>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#inicio" class="active">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a>
+                        <ul class="dropdown">
+                            <li><a href="#servicio-automatizacion">Automatización</a></li>
+                            <li><a href="#servicio-seguridad">Seguridad</a></li>
+                            <li><a href="#servicio-telecomunicaciones">Telecomunicaciones</a></li>
+                            <li><a href="#servicio-energia">Energía Solar</a></li>
+                            <li><a href="#servicio-domotica">Domótica</a></li>
+                            <li><a href="#servicio-tecnico">Soporte Técnico</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#pilares">Pilares</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-toggle" id="navToggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-badge">Innovación que transforma</div>
+            <h1>Tecnología inteligente <br>para el <span class="highlight">futuro</span></h1>
+            <p>En NexTronics Smart Systems convertimos la tecnología en soluciones inteligentes para hogares, industrias y empresas.</p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn btn-primary">Solicitar cotización</a>
+                <a href="#servicios" class="btn btn-outline">Nuestros servicios</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-num" data-target="150">0</span><span class="stat-label">Proyectos</span></div>
+                <div class="stat"><span class="stat-num" data-target="98">0</span><span class="stat-label">% Satisfacción</span></div>
+                <div class="stat"><span class="stat-num" data-target="5">0</span><span class="stat-label">Años de experiencia</span></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Desliza</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- SERVICIOS (VISTA GENERAL) -->
+    <section class="servicios" id="servicios">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nuestros servicios</span>
+                <h2>Soluciones tecnológicas <span class="highlight">integrales</span></h2>
+                <p>Ofrecemos servicios de ingeniería electrónica de alto nivel para impulsar tu negocio al futuro.</p>
+            </div>
+            <div class="servicios-grid">
+                <a href="#servicio-automatizacion" class="servicio-card">
+                    <div class="card-icon"><i class="fas fa-industry"></i></div>
+                    <h3>Automatización Industrial</h3>
+                    <p>PLC, sensores, tableros eléctricos, variadores y monitoreo industrial para optimizar tu producción.</p>
+                    <span class="card-cta">Ver más <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="#servicio-seguridad" class="servicio-card">
+                    <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Seguridad Electrónica</h3>
+                    <p>Cámaras CCTV, alarmas, cercos eléctricos, control de acceso y videoporteros inteligentes.</p>
+                    <span class="card-cta">Ver más <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="#servicio-telecomunicaciones" class="servicio-card">
+                    <div class="card-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Telecomunicaciones</h3>
+                    <p>Redes, fibra óptica, radio enlaces, internet empresarial y cableado estructurado.</p>
+                    <span class="card-cta">Ver más <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="#servicio-energia" class="servicio-card">
+                    <div class="card-icon"><i class="fas fa-solar-panel"></i></div>
+                    <h3>Energía Solar</h3>
+                    <p>Paneles solares, inversores, sistemas híbridos y bombeo solar para energía sostenible.</p>
+                    <span class="card-cta">Ver más <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="#servicio-domotica" class="servicio-card">
+                    <div class="card-icon"><i class="fas fa-home"></i></div>
+                    <h3>Domótica</h3>
+                    <p>Casas inteligentes, control por celular, iluminación inteligente y automatización del hogar.</p>
+                    <span class="card-cta">Ver más <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="#servicio-tecnico" class="servicio-card">
+                    <div class="card-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Servicios Técnicos Premium</h3>
+                    <p>Mantenimiento industrial, diagnóstico electrónico y reparaciones especializadas.</p>
+                    <span class="card-cta">Ver más <i class="fas fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- AUTOMATIZACIÓN INDUSTRIAL -->
+    <section class="servicio-detalle" id="servicio-automatizacion">
+        <div class="container">
+            <div class="detalle-grid">
+                <div class="detalle-content">
+                    <span class="section-tag">Automatización Industrial</span>
+                    <h2>Optimiza tu producción con <span class="highlight">tecnología de punta</span></h2>
+                    <p>Transformamos tus procesos industriales con soluciones de automatización que aumentan la eficiencia, reducen costos y mejoran la calidad de producción.</p>
+                    <ul class="detalle-list">
+                        <li><i class="fas fa-check-circle"></i> Programación e integración de PLC (Allen Bradley, Siemens, Delta)</li>
+                        <li><i class="fas fa-check-circle"></i> Sensores industriales y actuadores</li>
+                        <li><i class="fas fa-check-circle"></i> Diseño y fabricación de tableros eléctricos</li>
+                        <li><i class="fas fa-check-circle"></i> Variadores de velocidad (VFD)</li>
+                        <li><i class="fas fa-check-circle"></i> Sistemas SCADA y monitoreo en tiempo real</li>
+                        <li><i class="fas fa-check-circle"></i> Mantenimiento y modernización de líneas de producción</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary">Cotizar ahora <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="detalle-visual">
+                    <div class="detalle-icon"><i class="fas fa-industry"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEGURIDAD ELECTRÓNICA -->
+    <section class="servicio-detalle" id="servicio-seguridad">
+        <div class="container">
+            <div class="detalle-grid reverse">
+                <div class="detalle-visual">
+                    <div class="detalle-icon"><i class="fas fa-shield-alt"></i></div>
+                </div>
+                <div class="detalle-content">
+                    <span class="section-tag">Seguridad Electrónica</span>
+                    <h2>Protege lo que más <span class="highlight">importa</span></h2>
+                    <p>Implementamos sistemas de seguridad electrónica de última generación para hogares, empresas e industrias. Monitoreo 24/7 y tecnología de vigilancia inteligente.</p>
+                    <ul class="detalle-list">
+                        <li><i class="fas fa-check-circle"></i> Cámaras CCTV HD, IP y térmicas</li>
+                        <li><i class="fas fa-check-circle"></i> Sistemas de alarma perimetral e interior</li>
+                        <li><i class="fas fa-check-circle"></i> Cercos eléctricos de alta seguridad</li>
+                        <li><i class="fas fa-check-circle"></i> Control de acceso biométrico y tarjetas</li>
+                        <li><i class="fas fa-check-circle"></i> Videoporteros inteligentes con app</li>
+                        <li><i class="fas fa-check-circle"></i> Integración con sistemas de monitoreo centralizado</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary">Cotizar ahora <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TELECOMUNICACIONES -->
+    <section class="servicio-detalle" id="servicio-telecomunicaciones">
+        <div class="container">
+            <div class="detalle-grid">
+                <div class="detalle-content">
+                    <span class="section-tag">Telecomunicaciones</span>
+                    <h2>Conectividad empresarial <span class="highlight">de alto rendimiento</span></h2>
+                    <p>Diseñamos e implementamos redes de telecomunicaciones robustas y escalables para mantener tu negocio siempre conectado con la máxima velocidad y confiabilidad.</p>
+                    <ul class="detalle-list">
+                        <li><i class="fas fa-check-circle"></i> Redes LAN, WAN y VLAN corporativas</li>
+                        <li><i class="fas fa-check-circle"></i> Instalación y fusión de fibra óptica</li>
+                        <li><i class="fas fa-check-circle"></i> Radio enlaces punto a punto y punto a multipunto</li>
+                        <li><i class="fas fa-check-circle"></i> Internet empresarial dedicado</li>
+                        <li><i class="fas fa-check-circle"></i> Cableado estructurado certificado (Cat 6, Cat 6A)</li>
+                        <li><i class="fas fa-check-circle"></i> Soporte y mantenimiento de infraestructura TI</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary">Cotizar ahora <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="detalle-visual">
+                    <div class="detalle-icon"><i class="fas fa-network-wired"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ENERGÍA SOLAR -->
+    <section class="servicio-detalle" id="servicio-energia">
+        <div class="container">
+            <div class="detalle-grid reverse">
+                <div class="detalle-visual">
+                    <div class="detalle-icon"><i class="fas fa-solar-panel"></i></div>
+                </div>
+                <div class="detalle-content">
+                    <span class="section-tag">Energía Solar</span>
+                    <h2>Energía limpia que <span class="highlight">impulsa tu negocio</span></h2>
+                    <p>Aprovecha el poder del sol con nuestros sistemas de energía solar fotovoltaica. Reduce tus costos de electricidad y contribuye al medio ambiente con soluciones sostenibles.</p>
+                    <ul class="detalle-list">
+                        <li><i class="fas fa-check-circle"></i> Paneles solares monocristalinos y policristalinos</li>
+                        <li><i class="fas fa-check-circle"></i> Inversores on-grid, off-grid e híbridos</li>
+                        <li><i class="fas fa-check-circle"></i> Sistemas de bombeo solar para agricultura</li>
+                        <li><i class="fas fa-check-circle"></i> Instalación de sistemas residenciales e industriales</li>
+                        <li><i class="fas fa-check-circle"></i> Monitoreo de generación y consumo</li>
+                        <li><i class="fas fa-check-circle"></i> Mantenimiento y limpieza de paneles</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary">Cotizar ahora <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOMÓTICA -->
+    <section class="servicio-detalle" id="servicio-domotica">
+        <div class="container">
+            <div class="detalle-grid">
+                <div class="detalle-content">
+                    <span class="section-tag">Domótica</span>
+                    <h2>Tu hogar inteligente al <span class="highlight">alcance de tu mano</span></h2>
+                    <p>Convertimos tu casa en un hogar inteligente con automatización controlable desde tu celular. Confort, seguridad y eficiencia energética integrados en un solo sistema.</p>
+                    <ul class="detalle-list">
+                        <li><i class="fas fa-check-circle"></i> Control de iluminación inteligente (WiFi, Zigbee)</li>
+                        <li><i class="fas fa-check-circle"></i> Automatización de persianas y cortinas</li>
+                        <li><i class="fas fa-check-circle"></i> Climatización inteligente (termostatos)</li>
+                        <li><i class="fas fa-check-circle"></i> Sensores de movimiento, humo y gas</li>
+                        <li><i class="fas fa-check-circle"></i> Integración con asistentes de voz (Alexa, Google Home)</li>
+                        <li><i class="fas fa-check-circle"></i> Sistemas de riego automatizado</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary">Cotizar ahora <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="detalle-visual">
+                    <div class="detalle-icon"><i class="fas fa-home"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS TÉCNICOS -->
+    <section class="servicio-detalle" id="servicio-tecnico">
+        <div class="container">
+            <div class="detalle-grid reverse">
+                <div class="detalle-visual">
+                    <div class="detalle-icon"><i class="fas fa-tools"></i></div>
+                </div>
+                <div class="detalle-content">
+                    <span class="section-tag">Servicios Técnicos Premium</span>
+                    <h2>Soporte especializado <span class="highlight">cuando lo necesitas</span></h2>
+                    <p>Ofrecemos servicios de mantenimiento, diagnóstico y reparación con ingenieros altamente calificados. Respuesta rápida y soluciones garantizadas para tus equipos electrónicos.</p>
+                    <ul class="detalle-list">
+                        <li><i class="fas fa-check-circle"></i> Mantenimiento preventivo y correctivo industrial</li>
+                        <li><i class="fas fa-check-circle"></i> Diagnóstico electrónico a nivel de componente</li>
+                        <li><i class="fas fa-check-circle"></i> Reparación de fuentes, drivers y tarjetas electrónicas</li>
+                        <li><i class="fas fa-check-circle"></i> Calibración de instrumentos de medición</li>
+                        <li><i class="fas fa-check-circle"></i> Soporte técnico remoto y presencial</li>
+                        <li><i class="fas fa-check-circle"></i> Asesoría técnica especializada</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary">Cotizar ahora <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="nosotros" id="nosotros">
+        <div class="container">
+            <div class="nosotros-grid">
+                <div class="nosotros-content">
+                    <span class="section-tag">Quiénes somos</span>
+                    <h2>Ingeniería electrónica <span class="highlight">de alto nivel</span></h2>
+                    <p>NexTronics Smart Systems S.R.L. nace de la visión del ingeniero <strong>Elvis Eliseo Garriazo</strong>, con el propósito de ofrecer soluciones tecnológicas modernas, confiables e innovadoras.</p>
+                    <p>Combinamos conocimiento técnico, imagen profesional y marketing para brindar servicios que generan confianza y resultados tangibles.</p>
+                    <div class="valores">
+                        <div class="valor"><i class="fas fa-check-circle"></i> Innovación constante</div>
+                        <div class="valor"><i class="fas fa-check-circle"></i> Calidad garantizada</div>
+                        <div class="valor"><i class="fas fa-check-circle"></i> Confianza y seguridad</div>
+                        <div class="valor"><i class="fas fa-check-circle"></i> Compromiso total</div>
+                    </div>
+                </div>
+                <div class="organigrama">
+                    <h3>Organigrama empresarial</h3>
+                    <div class="org-chart">
+                        <div class="org-level ceo">
+                            <div class="org-node">
+                                <i class="fas fa-user-tie"></i>
+                                <span class="org-name">Elvis E. Garriazo</span>
+                                <span class="org-role">Gerente General</span>
+                            </div>
+                        </div>
+                        <div class="org-level departments">
+                            <div class="org-node">
+                                <i class="fas fa-cogs"></i>
+                                <span class="org-role">Ingeniería</span>
+                            </div>
+                            <div class="org-node">
+                                <i class="fas fa-satellite-dish"></i>
+                                <span class="org-role">Telecomunicaciones</span>
+                            </div>
+                            <div class="org-node">
+                                <i class="fas fa-robot"></i>
+                                <span class="org-role">Automatización</span>
+                            </div>
+                            <div class="org-node">
+                                <i class="fas fa-shield-alt"></i>
+                                <span class="org-role">Seguridad Electrónica</span>
+                            </div>
+                            <div class="org-node">
+                                <i class="fas fa-chart-line"></i>
+                                <span class="org-role">Marketing</span>
+                            </div>
+                            <div class="org-node">
+                                <i class="fas fa-headset"></i>
+                                <span class="org-role">Soporte Técnico</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PILARES -->
+    <section class="pilares" id="pilares">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nuestra filosofía</span>
+                <h2>5 pilares de <span class="highlight">nuestro éxito</span></h2>
+            </div>
+            <div class="pilares-grid">
+                <div class="pilar-card">
+                    <div class="pilar-num">01</div>
+                    <h3>Identidad Empresarial</h3>
+                    <p>Marca sólida y coherente en cada punto de contacto: uniformes, tarjetas, web, redes y documentación corporativa.</p>
+                </div>
+                <div class="pilar-card">
+                    <div class="pilar-num">02</div>
+                    <h3>Servicios Rentables</h3>
+                    <p>Especialización en automatización, seguridad, telecomunicaciones, energía solar y domótica.</p>
+                </div>
+                <div class="pilar-card">
+                    <div class="pilar-num">03</div>
+                    <h3>Estructura Empresarial</h3>
+                    <p>Empresa formalizada con RUC, cuenta bancaria y presencia digital profesional en todas las plataformas.</p>
+                </div>
+                <div class="pilar-card">
+                    <div class="pilar-num">04</div>
+                    <h3>Estrategia de Crecimiento</h3>
+                    <p>Construimos confianza con contenido real: instalaciones, videos, antes/después y tips tecnológicos.</p>
+                </div>
+                <div class="pilar-card">
+                    <div class="pilar-num">05</div>
+                    <h3>Plan a Gran Escala</h3>
+                    <p>Reconocimiento regional, contratos con minas, colegios, municipalidades y creación de línea tecnológica propia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FRASE EMPRESARIAL -->
+    <section class="frase">
+        <div class="container">
+            <i class="fas fa-quote-left"></i>
+            <blockquote>En NexTronics Smart Systems convertimos la tecnología en soluciones inteligentes.</blockquote>
+            <span class="frase-author">— Elvis Eliseo Garriazo, Gerente General</span>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contáctanos</span>
+                <h2>Solicita tu <span class="highlight">cotización</span></h2>
+                <p>Déjanos tus datos y un asesor te atenderá a la brevedad.</p>
+            </div>
+            <div class="contacto-grid">
+                <form class="contacto-form" id="contactForm">
+                    <div class="form-row">
+                        <input type="text" placeholder="Nombre completo" required>
+                        <input type="email" placeholder="Correo electrónico" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="tel" placeholder="Teléfono" required>
+                        <input type="text" placeholder="Empresa">
+                    </div>
+                    <select required>
+                        <option value="" disabled selected>Servicio de interés</option>
+                        <option>Automatización Industrial</option>
+                        <option>Seguridad Electrónica</option>
+                        <option>Telecomunicaciones</option>
+                        <option>Energía Solar</option>
+                        <option>Domótica</option>
+                        <option>Servicio Técnico</option>
+                    </select>
+                    <textarea placeholder="Describe tu proyecto o requerimiento" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar cotización <i class="fas fa-paper-plane"></i></button>
+                </form>
+                <div class="contacto-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Ica, Perú</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p><a href="tel:912234892">912 234 892</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:elviseliseo965@gmail.com">elviseliseo965@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://wa.me/51912234892" target="_blank">Escríbenos ahora</a></p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="NexTronics Smart Systems" class="logo-img">
+                        <div class="logo-text">
+                            <span class="logo-title">NexTronics</span>
+                            <span class="logo-sub">Smart Systems</span>
+                        </div>
+                    </div>
+                    <p>Tecnología inteligente para el futuro. Innovación que transforma.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#servicio-automatizacion">Automatización Industrial</a></li>
+                        <li><a href="#servicio-seguridad">Seguridad Electrónica</a></li>
+                        <li><a href="#servicio-telecomunicaciones">Telecomunicaciones</a></li>
+                        <li><a href="#servicio-energia">Energía Solar</a></li>
+                        <li><a href="#servicio-domotica">Domótica</a></li>
+                        <li><a href="#servicio-tecnico">Servicio Técnico</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#pilares">Pilares</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NexTronics Smart Systems S.R.L. Todos los derechos reservados.</p>
+                <p class="footer-frase">"Tecnología inteligente para el futuro"</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÓN WHATSAPP FLOTANTE -->
+    <a href="https://wa.me/51912234892" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
